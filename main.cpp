@@ -4,7 +4,7 @@ constexpr int N_ELEMENTS = 100;
 
 int main()
 {
-    int *b = new int[NELEMENTS]; // rosszul van leírva az N_ELEMENTS  
+    int *b = new int[N_ELEMENTS];  
     std::cout << '1-100 ertekek duplazasa' // aposztróf helyett idézőjel + pontosvessző
     for (int i = 0;) // helytelen for ciklus + felesleges for ciklus egybe lehet építeni
     {
