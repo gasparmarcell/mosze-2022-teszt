@@ -15,7 +15,7 @@ int main()
     double atlag=0;
     for (int i = 0; i < N_ELEMENTS, i++)
     {
-        atlag += b[i] // pontosvessző hiánya
+        atlag += b[i];
     }
     atlag /= N_ELEMENTS;
     std::cout << "Atlag: " << atlag << std::endl;
